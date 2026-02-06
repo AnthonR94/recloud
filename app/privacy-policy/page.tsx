@@ -36,10 +36,11 @@ export default function PrivacyPolicy() {
           Privacy Policy
         </h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          Last updated: {new Date().toLocaleDateString("en-ZA", { year: "numeric", month: "long", day: "numeric" })}
+          Last updated: 6 February 2026
         </p>
 
         <div className="mt-10 space-y-8 text-foreground/90 leading-relaxed">
+
           <section>
             <h2 className="text-xl font-semibold text-foreground">1. Introduction</h2>
             <p className="mt-3">
@@ -51,15 +52,9 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-foreground">2. Information We Collect</h2>
             <p className="mt-3">We may collect the following types of information:</p>
             <ul className="mt-3 list-disc pl-6 space-y-2">
-              <li>
-                <strong>Personal Information:</strong> Name, email address, phone number, company name, and physical address when you contact us or request our services.
-              </li>
-              <li>
-                <strong>Technical Information:</strong> IP address, browser type, operating system, and other technical data collected automatically when you visit our website.
-              </li>
-              <li>
-                <strong>Service Data:</strong> Information related to your IT infrastructure that is necessary for us to provide our managed IT services.
-              </li>
+              <li><strong>Personal Information:</strong> Name, email address, phone number, company name, and physical address when you contact us or request our services.</li>
+              <li><strong>Technical Information:</strong> IP address, browser type, operating system, and other technical data collected automatically when you visit our website.</li>
+              <li><strong>Service Data:</strong> Information related to your IT infrastructure that is necessary for us to provide our managed IT services.</li>
             </ul>
           </section>
 
@@ -81,9 +76,11 @@ export default function PrivacyPolicy() {
               We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:
             </p>
             <ul className="mt-3 list-disc pl-6 space-y-2">
-              <li>With trusted service providers who assist us in delivering our services, subject to confidentiality agreements</li>
-              <li>When required by law or to comply with legal proceedings</li>
-              <li>To protect the rights, property, or safety of Recloud, our clients, or others</li>
+              <li>With trusted service providers who assist us in delivering our services, including remote support tools, monitoring platforms, cloud hosting providers, and cybersecurity services.</li>
+              <li>With Cloudflare, which provides security, performance optimisation, and DNS services for our website and infrastructure.</li>
+              <li>With Microsoft (including Microsoft 365 and Azure), which we use for email hosting, cloud storage, authentication, and productivity tools.</li>
+              <li>When required by law or to comply with legal proceedings.</li>
+              <li>To protect the rights, property, or safety of Recloud, our clients, or others.</li>
             </ul>
           </section>
 
@@ -111,8 +108,15 @@ export default function PrivacyPolicy() {
               <li>Request correction of inaccurate or incomplete information</li>
               <li>Request deletion of your personal information</li>
               <li>Object to the processing of your personal information</li>
+              <li>Withdraw consent where processing is based on consent</li>
               <li>Lodge a complaint with the Information Regulator</li>
             </ul>
+
+            <p className="mt-3">
+              <strong>Information Regulator (South Africa)</strong><br />
+              Email: complaints.IR@justice.gov.za<br />
+              Website: https://www.justice.gov.za/inforeg/
+            </p>
           </section>
 
           <section>
@@ -146,6 +150,37 @@ export default function PrivacyPolicy() {
               </li>
             </ul>
           </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-foreground">11. Cross‑Border Data Transfers</h2>
+            <p className="mt-3">
+              Some of our service providers may store or process personal information outside of South Africa. This includes Cloudflare (global network) and Microsoft (data centres in various regions). When personal information is transferred across borders, we ensure that the receiving party is subject to laws, binding corporate rules, or agreements that provide an adequate level of protection as required by POPIA.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-foreground">12. Children’s Privacy</h2>
+            <p className="mt-3">
+              Our services are not directed at children under the age of 18, and we do not knowingly collect personal information from minors. If we become aware that personal information of a child has been collected without the necessary consent or legal justification, we will take steps to delete such information promptly.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-foreground">13. Third‑Party Services</h2>
+            <p className="mt-3">
+              We use trusted third‑party platforms and tools to deliver our managed IT services, including but not limited to:
+            </p>
+            <ul className="mt-3 list-disc pl-6 space-y-2">
+              <li>Remote support tools (e.g., AnyDesk, Remote Agent)</li>
+              <li>Cloud hosting and security services (e.g., Cloudflare)</li>
+              <li>Email and productivity platforms (e.g., Microsoft 365)</li>
+              <li>Monitoring, backup, and cybersecurity tools</li>
+            </ul>
+            <p className="mt-3">
+              These providers may process limited personal or technical information as required to deliver their services. All third‑party providers are bound by confidentiality and data protection obligations.
+            </p>
+          </section>
+
         </div>
 
         <div className="mt-16 border-t border-border pt-8">
