@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Download } from "lucide-react";
 
 export function Footer() {
   return (
@@ -22,25 +21,6 @@ export function Footer() {
               Recloud
             </span>
           </Link>
-
-          {/* AnyDesk Downloads */}
-          <nav className="flex items-center gap-3">
-            <span className="text-xs text-primary-foreground">AnyDesk Download:</span>
-            <a
-              href="https://download.anydesk.com/AnyDesk.exe"
-              className="flex items-center gap-1 text-xs text-primary-foreground hover:text-primary-foreground/80 transition-colors"
-            >
-              <Download className="h-3 w-3" />
-              Windows
-            </a>
-            <a
-              href="https://download.anydesk.com/anydesk.dmg"
-              className="flex items-center gap-1 text-xs text-primary-foreground hover:text-primary-foreground/80 transition-colors"
-            >
-              <Download className="h-3 w-3" />
-              macOS
-            </a>
-          </nav>
 
           {/* Copyright */}
           <p className="text-sm text-primary-foreground/70">
