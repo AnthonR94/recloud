@@ -96,7 +96,7 @@ export function Header() {
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Button variant="secondary" asChild>
-            <a href="https://portal.gorelo.io/#/dashboard" target="_blank" rel="noopener noreferrer">
+            <a href="https://portal.recloud.co.za" target="_blank" rel="noopener noreferrer">
               Client Portal Login
             </a>
           </Button>
@@ -143,7 +143,7 @@ export function Header() {
             </div>
             <div className="pt-4">
               <Button variant="secondary" className="w-full" asChild>
-                <a href="https://portal.gorelo.io/#/dashboard" target="_blank" rel="noopener noreferrer">
+                <a href="https://portal.recloud.co.za" target="_blank" rel="noopener noreferrer">
                   Client Portal Login
                 </a>
               </Button>
