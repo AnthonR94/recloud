@@ -32,30 +32,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
+}>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Recloud",
-              "url": "https://recloud.co.za",
-              "logo": "https://recloud.co.za/images/recloud-logo.png",
-              "sameAs": [
-                "https://x.com/recloudza",
-                "https://www.facebook.com/profile.php?id=61564525532180"
-              ]
-            }),
-          }}
-        />
-      </head>
-      <body className="font-sans antialiased">
+      <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
       </body>
